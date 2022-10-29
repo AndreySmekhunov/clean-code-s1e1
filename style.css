@@ -1,4 +1,3 @@
-/* Basic Style */
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -21,7 +20,8 @@
 }
 
 @media (max-width:768px) {
-  .todo-header { text-align: center;
+  .todo-header { 
+    text-align: center;
   }
 }
 
@@ -74,7 +74,7 @@
   background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #000;
+  color:  #333;
 }
 
 .uncomplete .taskLabel {
@@ -107,7 +107,7 @@
   background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #000;
+  color:  #333;
 }
 
 .taskEdit {
@@ -126,7 +126,7 @@
   background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #000;
+  color:  #333;
 }
 
 .taskEdit:focus {
