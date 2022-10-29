@@ -4,28 +4,28 @@
   font-family: Lato, sans-serif;
 }
 
-.todo-header {
+.todoHeader {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.todo-header img {
+.todoHeader img {
     width: 100%;
 }
 
-.todo-header .more_inf {
+.todoHeader .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .todo-header { 
+  .todoHeader { 
     text-align: center;
   }
 }
 
-.task-list {
+.taskList {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -133,15 +133,15 @@
   color: #333;
 }
 
-.task-checkbox {
+.taskCheckbox {
   margin: 0 10px;
 }
 
-.todo-ul {
+.todoUl {
   padding-inline-start: 0px;
 }
 
-.todo-li {
+.todoLi {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;

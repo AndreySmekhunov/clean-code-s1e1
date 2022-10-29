@@ -9,28 +9,28 @@
     <link rel="stylesheet" href="style.css" MEDIA="screen" charset="utf-8">
   </head>
   <body class = "body">
-    <article class="todo-header">
+    <article class="todoHeader">
       <img src="./eisenhower-matrix.jpg">
       <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?;</a>
     </article>
-    <section class="task-list">
-      <div class = "task-add">
+    <section class="taskList">
+      <div>
         <h3 class = "subtitle"> Add Item </h3>
         <input id = "new-task" class="taskNew" type="text">
         <button id = "addButton" class = "button">Add</button>
       </div>
       <h3 class = "subtitle">Todo</h3>
-      <ul id = "incompleteTasks" class = "todo-ul uncomplete">
-        <li class = "todo-li">
-          <input class = "task-checkbox" type="checkbox">
+      <ul id = "incompleteTasks" class = "todoUl uncomplete">
+        <li class = "todoLi">
+          <input class = "taskCheckbox" type="checkbox">
           <div class = "taskLabel">Pay Bills</div>
           <input type="text" class="taskEdit">
           <button class="button edit">Edit</button>
           <button class="button delete"><img src="./remove.svg"></button>
         </li>
-        <li class="editMode todo-li">
-          <input class = "task-checkbox" type="checkbox">
+        <li class="editMode todoLi">
+          <input class = "taskCheckbox" type="checkbox">
           <label class="taskLabel">Go Shopping</label>
           <input type="text" value="Go Shopping" class="taskEdit">
           <button class="button edit">Save</button>
@@ -40,9 +40,9 @@
         </li>
       </ul>
       <h3 class = "subtitle">Completed</h3>
-      <ul id = "completedTasks" class = "todo-ul complete">
-        <li class = "todo-li">
-          <input class = "task-checkbox" type="checkbox" checked>
+      <ul id = "completedTasks" class = "todoUl complete">
+        <li class = "todoLi">
+          <input class = "taskCheckbox" type="checkbox" checked>
           <label class="taskLabel">See the Doctor</label>
           <input type="text" class="taskEdit">
           <button class="button edit">Edit</button>
