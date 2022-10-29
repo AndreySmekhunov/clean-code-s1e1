@@ -20,9 +20,11 @@
 }
 
 @media (max-width:768px) {
+
   .todoHeader { 
     text-align: center;
   }
+  
 }
 
 .taskList {
@@ -111,7 +113,6 @@
 }
 
 .taskEdit {
-  /* width: 318px; */
   display: inline-block;
   flex-grow: 1;
   padding-left: 10px;
