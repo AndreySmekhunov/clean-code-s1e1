@@ -137,6 +137,10 @@
   margin: 0 10px;
 }
 
+.todo-ul {
+  padding-inline-start: 0px;
+}
+
 .todo-li {
   overflow: hidden;
   padding: 20px 0;
@@ -145,7 +149,6 @@
   justify-content: space-between;
   align-items: center;
   vertical-align: middle;
-  padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
 }
@@ -155,7 +158,6 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-
 .button.delete img:hover {
   transform: rotateZ(0);
 }
